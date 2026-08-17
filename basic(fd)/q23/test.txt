@@ -1,0 +1,52 @@
+COMMAND    PID   USER   FD     TYPE             DEVICE  SIZE/OFF                NODE NAME
+Browser   6904 macsrc  cwd      DIR               1,18       736                   2 /
+Browser   6904 macsrc  txt      REG               1,18    170144            37351556 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Helpers/Browser Helper (Renderer).app/Contents/MacOS/Browser Helper (Renderer)
+Browser   6904 macsrc  txt      REG               1,18    740440            37351292 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/v8_context_snapshot.arm64.bin
+Browser   6904 macsrc  txt      REG               1,18   2653680 1152921500312603845 /usr/lib/dyld
+Browser   6904 macsrc  txt      REG               1,18    659288            37351140 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/chrome_100_percent.pak
+Browser   6904 macsrc  txt      REG               1,18   1301864            37351107 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/chrome_200_percent.pak
+Browser   6904 macsrc  txt      REG               1,18    593358            37351098 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/en.lproj/locale.pak
+Browser   6904 macsrc  txt      REG               1,18  36103744 1152921500312614401 /usr/share/icu/icudt78l.dat
+Browser   6904 macsrc  txt      REG               1,18  10876560            37351203 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/icudtl.dat
+Browser   6904 macsrc  txt      REG               1,18  22103092            37351335 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/resources.pak
+Browser   6904 macsrc  txt      REG               1,18    234224            36666330 /private/var/db/timezone/tz/2026c.1.0/icutz/icutz44l.dat
+Browser   6904 macsrc  txt      REG               1,18    899600 1152921500312144894 /System/Library/Fonts/Times.ttc
+Browser   6904 macsrc  txt      REG               1,18    186188 1152921500312144876 /System/Library/Fonts/Supplemental/Verdana.ttf
+Browser   6904 macsrc  txt      REG               1,18    249856            36437141 /Users/macsrc/Library/Application Support/Arc/User Data/Subresource Filter/Indexed Rules/38/9.70.0/Ruleset Data
+Browser   6904 macsrc  txt      REG               1,18    138488 1152921500312144462 /System/Library/Fonts/Supplemental/Impact.ttf
+Browser   6904 macsrc  txt      REG               1,18    379588 1152921500312144440 /System/Library/Fonts/Supplemental/Georgia.ttf
+Browser   6904 macsrc  txt      REG               1,18    138848 1152921500312144868 /System/Library/Fonts/Supplemental/Trebuchet MS.ttf
+Browser   6904 macsrc  txt      REG               1,18    135484 1152921500312144392 /System/Library/Fonts/Supplemental/Comic Sans MS.ttf
+Browser   6904 macsrc  txt      REG               1,18   1057148 1152921500312144299 /System/Library/Fonts/SFNSItalic.ttf
+Browser   6904 macsrc  txt      REG               1,18    773236 1152921500312144350 /System/Library/Fonts/Supplemental/Arial.ttf
+Browser   6904 macsrc  txt      REG               1,18    824920 1152921500312144858 /System/Library/Fonts/Supplemental/Times New Roman.ttf
+Browser   6904 macsrc  txt      REG               1,18    684624 1152921500312144404 /System/Library/Fonts/Supplemental/Courier New.ttf
+Browser   6904 macsrc  txt      REG               1,18   1769580 1152921500312144269 /System/Library/Fonts/Palatino.ttc
+Browser   6904 macsrc  txt      REG               1,18   2134132 1152921500312144243 /System/Library/Fonts/Menlo.ttc
+Browser   6904 macsrc  txt      REG               1,18   7822368 1152921500312144297 /System/Library/Fonts/SFNS.ttf
+Browser   6904 macsrc  txt      REG               1,18   2338064 1152921500312144221 /System/Library/Fonts/Helvetica.ttc
+Browser   6904 macsrc  txt      REG               1,18 471080144            37351527 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/ArcCore
+Browser   6904 macsrc  txt      REG               1,18 192120460 1152921500312144193 /System/Library/Fonts/Apple Color Emoji.ttc
+Browser   6904 macsrc    0r     CHR                3,2       0t0                 336 /dev/null
+Browser   6904 macsrc    1u     CHR                3,2       0t0                 336 /dev/null
+Browser   6904 macsrc    2u     CHR                3,2   0t16937                 336 /dev/null
+Browser   6904 macsrc    3r     REG               1,18  10876560            37351203 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/icudtl.dat
+Browser   6904 macsrc    4r     REG               1,18    740440            37351292 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/v8_context_snapshot.arm64.bin
+Browser   6904 macsrc    5r     REG               1,18    659288            37351140 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/chrome_100_percent.pak
+Browser   6904 macsrc    6r     REG               1,18   1301864            37351107 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/chrome_200_percent.pak
+Browser   6904 macsrc    7r     REG               1,18    593358            37351098 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/en.lproj/locale.pak
+Browser   6904 macsrc    8r     REG               1,18  22103092            37351335 /Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Versions/A/Resources/resources.pak
+Browser   6904 macsrc    9u  KQUEUE                                                  count=0, state=0x12
+Browser   6904 macsrc   10u  KQUEUE                                                  count=0, state=0x12
+Browser   6904 macsrc   11u  KQUEUE                                                  count=0, state=0x12
+Browser   6904 macsrc   12r     REG               1,18    249856            36437141 /Users/macsrc/Library/Application Support/Arc/User Data/Subresource Filter/Indexed Rules/38/9.70.0/Ruleset Data
+Browser   6904 macsrc   13u     REG               1,18     77389            37863988 /private/var/folders/lk/qwdctcfs77j8sqjmk0736fxm0000gn/T/.company.thebrowser.Browser.pMSEyS
+Browser   6904 macsrc   14u  KQUEUE                                                  count=0, state=0x12
+Browser   6904 macsrc   15r     REG               1,18    249856            36437141 /Users/macsrc/Library/Application Support/Arc/User Data/Subresource Filter/Indexed Rules/38/9.70.0/Ruleset Data
+Browser   6904 macsrc   16     PIPE 0x55fcdf9a453c8967     16384                     ->0xeb069bf8adf53de
+Browser   6904 macsrc   17     PIPE  0xeb069bf8adf53de     16384                     ->0x55fcdf9a453c8967
+Browser   6904 macsrc   18     PIPE 0xab79dcb532e52709     16384                     ->0x7e59fd90999de81e
+Browser   6904 macsrc   19     PIPE 0x7e59fd90999de81e     16384                     ->0xab79dcb532e52709
+Browser   6904 macsrc   20     PIPE 0xa6a7350fcb41cceb     16384                     ->0xda5844593e15355b
+Browser   6904 macsrc   21     PIPE 0xda5844593e15355b     16384                     ->0xa6a7350fcb41cceb
+Browser   6904 macsrc  226     PIPE  0x6932350da347fb2     16384                     
