@@ -2,6 +2,8 @@
 and append the input to app.log and thus these loop continues...
 also it should stop on ctrl+d (an custom signal we gonna handle these signal)- signal handler only gonna tweak global signal = true- onwhich while loop working */
 
+// v2- we gonna here do - remove the append & observe results of adding line to file
+
 #include <fcntl.h>
 #include <unistd.h>
 
@@ -24,7 +26,7 @@ int main(int argc, char* argv[]) {
   }
 
   // 2. Open the log file for appending
-  int log_fd = open(argv[1], O_WRONLY | O_CREAT | O_APPEND, 0644);
+  int log_fd = open(argv[1], O_WRONLY | O_CREAT, 0644);
   if (log_fd == -1) {
     std::cerr << "Error opening log file: " << argv[1] << std::endl;
     return 1;

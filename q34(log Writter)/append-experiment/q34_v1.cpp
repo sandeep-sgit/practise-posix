@@ -2,6 +2,9 @@
 and append the input to app.log and thus these loop continues...
 also it should stop on ctrl+d (an custom signal we gonna handle these signal)- signal handler only gonna tweak global signal = true- onwhich while loop working */
 
+// v1- we gonna here do - deliberately move the offset of fd of file to 0 & observe the append results.
+// observation - lseek is useless with append - simple
+
 #include <fcntl.h>
 #include <unistd.h>
 
@@ -29,6 +32,9 @@ int main(int argc, char* argv[]) {
     std::cerr << "Error opening log file: " << argv[1] << std::endl;
     return 1;
   }
+
+  // Deliberately move the offset of the file descriptor to the beginning
+  lseek(log_fd, 0, SEEK_SET);  // but append is there so it can't go behind EOF (as we did 0_APPEND before hand)
 
   // 3. Set up signal handler for SIGINT (Ctrl+C)
   std::signal(SIGINT, handle_sigint);
