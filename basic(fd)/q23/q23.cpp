@@ -1,1 +1,0 @@
-// on Terminal use : command > test.txt & observe the output redirects to test.txt file instead of terminal.

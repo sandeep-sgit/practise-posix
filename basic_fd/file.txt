@@ -1,0 +1,8 @@
+COMMAND   PID   USER   FD   TYPE DEVICE  SIZE/OFF                NODE NAME
+htop    52466 macsrc  cwd    DIR   1,18      1472               52573 /Users/macsrc
+htop    52466 macsrc  txt    REG   1,18    284560            12669775 /opt/homebrew/Cellar/htop/3.5.1/bin/htop
+htop    52466 macsrc  txt    REG   1,18    348080            12669741 /opt/homebrew/Cellar/ncurses/6.6/lib/libncursesw.6.dylib
+htop    52466 macsrc  txt    REG   1,18   2653680 1152921500312603845 /usr/lib/dyld
+htop    52466 macsrc    0u   CHR   16,1 0t3463048                 859 /dev/ttys001
+htop    52466 macsrc    1u   CHR   16,1 0t3463048                 859 /dev/ttys001
+htop    52466 macsrc    2u   CHR   16,1 0t3463048                 859 /dev/ttys001

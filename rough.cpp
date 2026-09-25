@@ -3,5 +3,5 @@
 #include<iostream>
 
 int main() {
-    
+    in
 }
