@@ -19,7 +19,7 @@ std::counting_semaphore<3> empty_slots(3);  // Semaphore to track empty slots
 std::counting_semaphore<3> full_slots(0);   // Semaphore to track full slots
 
 bool productionDone = false;  // Flag to indicate if production is done
-mutex productionDoneMutex;  // Mutex to protect access to the productionDone flag
+mutex productionDoneMutex;    // Mutex to protect access to the productionDone flag
 
 void producer(int id) {
   for (int i = id * 10; i < id * 10 + 10; ++i) {
@@ -78,10 +78,14 @@ int main() {
     t.join();
   }
 
+  {
+    lock_guard<mutex> lock(productionDoneMutex);
+    productionDone = true;  // Set the production done flag
+  }
 
-  productionDoneMu
-  productionDone = true;  // Set the production done flag
-
+  for (int i = 0; i < num_consumers; ++i) {
+    full_slots.release();  // Release the semaphore to unblock consumers
+  }
 
   // Wait for all consumer threads to complete
   for (auto& t : consumers) {
@@ -90,3 +94,18 @@ int main() {
 
   return 0;
 }
+
+/* These code has issues
+   
+  problem 1:
+   consumer locks productiodoneMutex then goes for acquire (to get permit) --> as no permit available - it sleeps holding productioneMutex
+   and when producer done - they all joins in main and main tries to change productionDone flag --> as it locked in consumer (and consumer is sleeping) its kindly deadlock
+   LOCK and WAIT - the 1 of 4 importnat Deadlock patterns
+
+  problem 2:
+   also there is no requirement of 2 mutexes (becasue they are related as queue got empty then only producitonDoneflag gonna change) 
+   
+  problem 3:
+   releasing permits for all consumers in main thread in ending : suppose consumers are 6 and we are releasing 6 times but our semaphore limit is 3 
+   (so its little messy & confusing) - we need better design and thinking here!
+   */
